@@ -4,11 +4,29 @@
    Author's custom styles
    ========================================================================== */
 
+.menu{
+
+	
+	margin-left: 60px;
+	margin-right: 60px;
+	height: 30px;
+}
+
+
 .navbar-inverse{
 
 	background-image: linear-gradient(to bottom,#fdfdfd 0,#ffffff 100%);
 	border-color: white;
 	box-shadow: 0px 1px 1px gray;
+	height: 120px;
+}
+
+.navbar-form{
+	background-color: #006091;
+	margin-top: 20px;
+	height: 30px;
+	color: white;
+	border-radius: 16px;
 }
 
 .top{
@@ -16,7 +34,89 @@
 	height: 40px;
 	width: 100%;
 	background-color: blue;
+	box-shadow: 0px 1px 1px gray;
 }
+
+
+.footer{
+
+	background-color: #313332;
+	height: 280px;
+
+}
+
+.footer-fuente{
+	color: white;
+	display: flex;
+	justify-content:center;
+	padding-top: 10px;
+	align-items: center;
+	padding-left:6%;
+	padding-right:4%;
+
+}
+
+.footer-fuente-elementos{
+
+	width: 450px;
+	margin: 20px;
+	padding: 5px;
+	height: 200px;
+	
+}
+
+.footer-fuente-elementos-items{
+	margin-top: 5px;
+}
+
+.footer-fuente-elementos-items,p{
+	display: inline-block;
+}
+
+.w{
+	width: 15px;
+}
+
+
+ @media(max-width:800px){
+ .collapse{
+ 	background-color: white;
+	
+}
+
+.footer-fuente{
+	flex-direction:column;	
+}
+
+.footer{
+	height: 1024px;
+}
+
+.contenedormedio2{
+
+	background-color: #004062;
+	height: 320px;
+	text-align: center;
+
+}
+
+.navbar-toggle{
+	background-color: #004062;
+}
+
+.menu{
+	margin-left: 0px;
+}
+.form-group{
+		width: 100%;
+		font-size: 5px;
+
+	}
+label{
+		width: 100%;
+
+	}
+ }
 
 
 
