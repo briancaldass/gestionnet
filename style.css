@@ -1,10 +1,23 @@
+/*
+Theme Name: Tema web Gestion Institucional net
+Theme URI: https://wordpress.org/
+Author: Web Tac-Diseño y desarrollo web
+Author URI: https://wordpress.org/
+Description: Tema creado para la empresa Gestion Institucional de Colombia y Bolivia
+License: Derechos Reservados
+Text Domain: Gestion Insitucional .net
+
+*/
+
+/* Estilos*/
+
 
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 body{
-	background-image: url("../img/fondoprincipal.png");
+	background-image: url("img/fondoprincipal.png");
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -68,14 +81,47 @@ h2{
 	box-shadow: 1px 1px 4px gray; 
 }
 
-.menu{
+/*.menu{
 
 	margin-left: 60px;
 	margin-right: 60px;
 	height: 30px;
 	padding-top: 4px;
+}*/
+
+.menu{
+	list-style: none;
+
+	color: white;
+	padding-top: 0px;
+	margin: 0px;
+	padding-right: 25px;
 }
 
+.menu li{
+
+	vertical-align: middle;
+	color: white;
+	font-weight: bold;
+	display: inline-block;
+	width: 125px;
+	height: 44px;
+	text-align: center;
+	padding-top: 9px;
+	
+}
+
+.menu li:hover{
+	background-color: #01202f;
+
+}
+
+
+
+.menu li a{
+	color: white;
+	text-decoration: none;	
+}
 
 
 
@@ -152,7 +198,7 @@ h2{
 
 	height: 37px;
 	width: 100%;
-	background-image: url("../img/bannerpric.png");
+	background-image: url("img/bannerpric.png");
 	box-shadow: 0px 1px 1px gray;
 }
 
@@ -161,29 +207,6 @@ h2{
 
 	background-color: #313332;
 	height: 280px;
-
-}
-.form-group{
-	font-size: 12px;
-	font-weight: bold;
-	padding-top: 8px;
-	padding-bottom: 5px;
-
-}
-
-.form-group:hover:first-child{
-	background-color: #0c3a52; 
-	border-top-left-radius: 18px;
-	border-bottom-left-radius: 18px;
-}
-
-.form-group:hover:last-child{
-	background-color: #0c3a52; 
-	border-top-right-radius: 18px;
-	border-bottom-right-radius: 18px;
-}
-.form-group:hover{
-	background-color: #0c3a52; 
 
 }
 
@@ -256,14 +279,14 @@ h2{
 	background-color: #004062;
 }
 
-.menu{
+/*.menu{
 	margin-left: 0px;
-}
-.form-group{
+}*/
+/*.form-group{
 		width: 100%;
 		font-size: 5px;
 
-	}
+}*/
 label{
 		width: 100%;
 
